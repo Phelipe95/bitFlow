@@ -1,0 +1,8 @@
+2025-08-03 12:33:08 - INFO - \u23f8\ufe0f Nenhum sinal — HOLD
+2025-08-03 12:33:08 - INFO - HTTP Request: POST https://api.telegram.org/bot7609167244:AAFIyo4ZjXD5i2VDc1e8-hLjbQotg20eB4I/sendMessage "HTTP/1.1 200 OK"
+2025-08-03 12:43:12 - INFO - \u23f8\ufe0f Nenhum sinal — HOLD
+2025-08-03 12:43:13 - INFO - HTTP Request: POST https://api.telegram.org/bot7609167244:AAFIyo4ZjXD5i2VDc1e8-hLjbQotg20eB4I/sendMessage "HTTP/1.1 200 OK"
+2025-08-03 12:45:14 - INFO - \u23f8\ufe0f Nenhum sinal — HOLD
+2025-08-03 12:45:14 - INFO - HTTP Request: POST https://api.telegram.org/bot7609167244:AAFIyo4ZjXD5i2VDc1e8-hLjbQotg20eB4I/sendMessage "HTTP/1.1 200 OK"
+2025-08-03 13:09:14 - INFO - \u23f8\ufe0f ({SYMBOL}) Aguardar! Preço atual:  {price:.2f} USDT
+2025-08-03 13:09:15 - INFO - HTTP Request: POST https://api.telegram.org/bot7609167244:AAFIyo4ZjXD5i2VDc1e8-hLjbQotg20eB4I/sendMessage "HTTP/1.1 200 OK"
