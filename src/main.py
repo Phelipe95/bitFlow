@@ -34,17 +34,17 @@ async def main():
             price = float(client.get_symbol_ticker(symbol=SYMBOL)["price"])
 
             if signal and signal != last_signal:
-                if signal == "buy":
+                if signal == "BUY":
                     order = buy_solana(SYMBOL)
                     if order: # pega a quantidade comprada e o preço
-                        executed_qty = float(order["esecutedQty"])
+                        executed_qty = float(order["executeQty"])
                         last_buy_qty = executed_qty
                         last_buy_price = price
                         msg = f"🚀 COMPRA executada em {SYMBOL} a {price:.2f} (máx $10)"
-                elif signal == "sell" and last_buy_price:
+                elif signal == "SELL" and last_buy_price:
                     order = sell_solana(SYMBOL)
                     if order:
-                        executed_qty = float(order["esecutedQty"])
+                        executed_qty = float(order["executeQty"])
                         sell_value = executed_qty * price
                         buy_value = last_buy_qty * last_buy_price
                         profit = sell_value - buy_value
